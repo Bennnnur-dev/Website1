@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapWish</title>
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/body.css" />
+    <link rel="stylesheet" href="styles/input-row.css" />
+    <link rel="stylesheet" href="/styles/sidebar.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#">SnapWish</a></li>
+        <li><a href="#">Acceuil</a></li>
+        <li><a href="#">Amis</a></li>
+        <li><a href="#">Stories</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+    <nav>
+      <input class="nav-sb" type="text" placeholder="Rechercher" />
+
+      <div class="grid">
+        <div class="main-container">
+          <div class="img-container">
+            <img src="images/robot.webp" alt="" />
+          </div>
+          <div class="title">Mon IA</div>
+        </div>
+
+        <div class="main-container">
+          <div class="img-container">
+            <img src="images/1655462140904.jpg" alt="" />
+          </div>
+          <div class="title">Groupe 1</div>
+        </div>
+
+        <div class="main-container">
+          <div class="img-container">
+            <img src="images/ninho-site.jpg" alt="" />
+          </div>
+          <div class="title">Groupe 2</div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="js-section">
+      <div class="css-text-container" id="js-container"></div>
+    </section>
+
+    <section>
+      <input
+        class="input-row js-input-row"
+        type="text"
+        placeholder="Ecrire ici"
+        onkeydown="let key = event.key;
+    if (key === 'Enter') {
+        getInput();
+        input.value = ''
+    }  "
+      />
+      <div class="input-row-bg"></div>
+    </section>
+  </body>
+  <script src="/scripts/input-section.js"></script>
+</html>

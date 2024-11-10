@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(65, 65, 65);
+    margin: 0;
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 80.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: -100;
+}
+
+.css-text-container {
+    position: relative;
+    top: 100px;
+    left: 300px;
+    list-style: none;
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.3);
+    padding: 30px 0px 20px 50px;
+    margin-bottom: 20px;
+
+}
+
+.css-text-container div {
+    background-color: rgba(73, 73, 73, 0);
+    color: white;
+    border-radius: 20px;
+    margin: 5px 0 0 20px;
+    padding: 5px 10px 5px 10px;
+    width: 75%;
+    min-width: 100px;
+    position: relative;
+    line-break: anywhere;
+}
+
+.css-text-container div:hover{
+    background-color: rgba(73, 73, 73, 0.5);
+
+}
+
+.css-text-container p {
+    color: white;
+    background-color: rgb(150, 127, 255);
+    display: inline-block;
+    padding: 0px 45px 0px 45px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    left: 72px;
+    top: -5px;
+}
